@@ -9,8 +9,6 @@
     <h1>Registro para vacunación COVID-19</h1>
 
     <form
-      action=""
-      method="get"
       name="formRegistro"
       onSubmit="validar_formulario();"
     >
@@ -33,6 +31,11 @@
       <p>
         Contraseña:
         <input type="password" id="password" name="password" />
+        <img
+          src="view.png"
+          onmouseover="mostrarPassword();"
+          onmouseout="ocultarPassword();"
+        />
       </p>
 
       <p>

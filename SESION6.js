@@ -23,3 +23,14 @@ function validar_formulario() {
     passid.focus();
   }
 }
+
+
+function mostrarPassword(){
+  var obj = document.getElementById("password");
+  obj.type = "text";
+}
+
+function ocultarPassword(){
+  var obj = document.getElementById("password");
+  obj.type = "password";
+}

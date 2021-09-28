@@ -3,6 +3,7 @@ h1 {
   text-align: center;
   background-color: lightblue;
 }
+
 form {
   width: 350px;
   padding: 16px;
@@ -17,6 +18,7 @@ form input {
   border-radius: 3px;
   margin: 8px 10px;
   display: inline-block;
+  font-family: 'Roboto', sans-serif;
 }
 
 button {
